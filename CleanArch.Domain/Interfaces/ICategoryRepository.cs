@@ -2,7 +2,7 @@
 
 namespace CleanArch.Domain.Interfaces
 {
-    internal interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository : ICrudRepository<Category>
     {
 
     }

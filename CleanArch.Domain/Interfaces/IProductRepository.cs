@@ -2,7 +2,7 @@
 
 namespace CleanArch.Domain.Interfaces
 {
-    internal interface IProductRepository : IRepository<Product>
+    public interface IProductRepository : ICrudRepository<Product>
     {
 
     }
